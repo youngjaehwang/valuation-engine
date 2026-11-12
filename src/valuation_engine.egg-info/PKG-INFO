@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: valuation-engine
+Version: 0.1.0
+Summary: Production-grade valuation & fair value engine
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn>=0.29
+Requires-Dist: pydantic>=2.6
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: pandas>=2.2
+Requires-Dist: numpy>=2.0
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: celery>=5.4
+Requires-Dist: redis>=5.0
+Requires-Dist: pyarrow>=15.0
+Requires-Dist: scipy>=1.13
+Requires-Dist: pymysql>=1.1

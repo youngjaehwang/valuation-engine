@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valuation-engine"
+version = "0.1.0"
+description = "Production-grade valuation & fair value engine"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "pydantic>=2.6",
+  "sqlalchemy>=2.0",
+  "pandas>=2.2",
+  "numpy>=2.0",
+  "python-dotenv>=1.0",
+  "celery>=5.4",
+  "redis>=5.0",
+  "pyarrow>=15.0",
+  "scipy>=1.13",
+  "pymysql>=1.1"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
